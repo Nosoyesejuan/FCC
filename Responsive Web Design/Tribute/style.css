@@ -1,0 +1,179 @@
+/*Colors
+https://color.adobe.com/es/search?q=web%20page&t=term
+
+#F0F0F2
+#010D26
+#021740
+#1E5CD9
+#93BF34
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Poppins', sans-serif;
+    
+  }
+
+/*------------header------------*/
+
+#nav{
+  background-color: #1E5CD9;
+  color: #F0F0F2;
+  height: 50px;
+  width: auto;
+  position: sticky;
+  top: 0;
+  margin-top: 0;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.burguer{
+  height: 50px;
+  width: 50px;
+}
+
+.nav__title{
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 425px){
+  #nav{
+    font-size: 0.75em;
+  }
+}
+  
+/*------------hero------------*/
+
+  #title{
+    text-align: center;
+    margin: 50px auto 0px auto;
+    text-transform: capitalize;
+  }
+
+  #title h1{
+    font-weight: 600;
+    font-size: 3.2em;
+}
+  
+  #title h2{
+    color: #1E5CD9;
+    font-weight: 300;
+    font-size: 1.2em;
+  }
+  
+  #img-div{
+      padding: 30px;
+      margin: 15px;
+  }
+
+  #image{
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+  }
+
+  #img-caption{
+      font-size: 0.9em;
+      font-weight: 400;
+      padding: 5px;
+      margin: 0px auto;
+      text-align: center;
+  }
+
+@media screen and (max-width: 425px){
+  #title{
+    margin: 20px auto 0px auto;
+  }
+  
+  #title h1{
+    font-size: 2.9em;
+  }
+  
+  #title h2{
+    font-size: 0.9em;
+  }
+  
+  #img-div{
+    margin: 4px;
+  }
+  
+  #img-caption{
+    font-size: 0.7em;
+  }
+}
+
+  /*---------main---------*/
+
+  #container{
+    margin: 0 15px;
+}
+  
+  #tribute-info{
+    border: 1px solid #1E5CD9;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 10px auto;
+    font-size: 1em;
+  }
+
+  #films{
+    background-color: #1E5CD9;
+    color: #F0F0F2;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 20px auto;
+    font-size: 1em;
+    box-shadow: 2px 5px 16px 0px #0B325E, 0px 0px 50px 0px rgba(0,0,0,0.1);
+}
+
+  #films li{
+    text-align: center;
+    padding: 3px;
+    list-style-type: none;
+  }
+
+@media screen and (min-width: 820px){
+  #tribute-info, #films{
+  width: 50em; 
+  }
+}
+
+  /*---------footer---------*/
+
+  #footer{
+    height: 50px;
+    width: auto;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  a:hover{
+    transition: 500ms;
+    background-color: #1E5CD9;
+    color: #f0f0f2;
+    border-radius: 20px;
+    padding: 3px 10px;
+    box-shadow: 0px 1px 8px 0px #0B325E, 0px 0px 20px 0px rgba(0,0,0,0.1);
+}
+
+  a:link, a:active, a:visited{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 425px){
+  #footer{
+    font-size: 0.6em;
+}
