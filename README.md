@@ -1,3 +1,3 @@
 # FCC/FreeCodeCamp
 
-Certification of Web Responsive Design with Free Code Camp
+Some of the certificates that I have obtained in FreeCodeCamp
